@@ -1,0 +1,30 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "This repo is for practical usages.",
+  "main": "index.html",
+  "authors": [
+    "Kircho"
+  ],
+  "license": "ISC",
+  "homepage": "https://landing.dev",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "icomoon-bower": "icomoon#^0.1.0",
+    "animate.css": "^3.5.1",
+    "waypoints": "jquery-waypoints#^4.0.0",
+    "jquery-easing": "*",
+    "respond": "^1.4.2",
+    "modernizer": "^2.8.2",
+    "font-awesome": "^4.6.2",
+    "nivo-slider": "*",
+    "jquery-validation": "jquery.validate#^1.13.0"
+  }
+}
