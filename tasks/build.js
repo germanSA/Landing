@@ -2,4 +2,4 @@
 
 var gulp = require('gulp');
 
-gulp.task('build', ['stylus', 'scripts', 'assets', 'pugs']);
+gulp.task('build', ['stylus', 'scripts', 'assets', 'pugs','vendors','images']);

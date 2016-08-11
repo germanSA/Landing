@@ -17,6 +17,8 @@
     "gulp-concat": "^2.6.0",
     "gulp-filter": "^4.0.0",
     "gulp-git": "^1.7.1",
+    "gulp-gm": "0.0.8",
+    "gulp-image": "^2.4.1",
     "gulp-jade-php": "^2.0.0-0",
     "gulp-pug": "^3.0.4",
     "gulp-stylus": "^2.3.1",

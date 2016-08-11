@@ -10,3 +10,8 @@ gulp.task('scripts', function() {
         .pipe(uglify({outSourceMap: true}))
         .pipe(gulp.dest('./build/js/'));
 });
+
+gulp.task('scripts',function () {
+    gulp.src('src/scripts/*.js')
+        .pipe(gulp.dest('./build/js/'))
+})

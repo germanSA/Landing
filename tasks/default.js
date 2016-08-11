@@ -2,7 +2,7 @@
 
 var gulp = require('gulp');
 
-gulp.task('default', ['pugs', 'stylus', 'scripts', 'assets'], function() {
+gulp.task('default', ['pugs', 'stylus', 'scripts', 'assets','vendors','images'], function() {
 
     gulp.watch(['src/assets/**', 'src/php/*.php'], function(event) {
         gulp.run('assets');
